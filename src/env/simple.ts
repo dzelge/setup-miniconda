@@ -15,7 +15,7 @@ import * as conda from "../conda";
 export const ensureSimple: types.IEnvProvider = {
   label: "conda create (simple)",
   provides: async (inputs, options) => {
-    console.log(options)
+    console.log(options);
     return !(
       options.envSpec?.explicit?.length ||
       Object.keys(options.envSpec?.yaml || {}).length
