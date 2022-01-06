@@ -25,7 +25,7 @@ import { ensureSimple } from "./simple";
 const ENV_PROVIDERS: types.IEnvProvider[] = [
   ensureExplicit,
   ensureSimple,
-  ensureYaml,
+  //ensureYaml,
 ];
 
 /**
